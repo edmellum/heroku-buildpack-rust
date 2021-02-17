@@ -83,7 +83,7 @@ fi
 # something like that.
 cat <<EOF > $BP_DIR/export
 # Our rustup installation.
-export RUSTUP_HOME="$CACHE_DIR/multirust"
+export RUSTUP_HOME="$CACHE_DIR/.rustup"
 
 # Our cargo installation.  We implicitly trust Rustup and Cargo
 # to do the right thing when new versions are released.
